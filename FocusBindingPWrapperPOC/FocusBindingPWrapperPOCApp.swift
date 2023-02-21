@@ -9,9 +9,18 @@ import SwiftUI
 
 @main
 struct FocusBindingPWrapperPOCApp: App {
+    @State private var price = 0
+
     var body: some Scene {
+        
         WindowGroup {
-            ContentView()
+        //if FocusedValue(\.price) != nil {
+                 ContentView(price: $price)
+                     .focusedSceneValue(\.price, $price)
+           //  }else{
+            //    FocusValueView()
+           // }
         }
+        
     }
 }

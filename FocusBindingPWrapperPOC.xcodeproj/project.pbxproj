@@ -11,6 +11,7 @@
 		18A7EE5A29A4BFA100DB5614 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A7EE5929A4BFA100DB5614 /* ContentView.swift */; };
 		18A7EE5C29A4BFA300DB5614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A7EE5B29A4BFA300DB5614 /* Assets.xcassets */; };
 		18A7EE5F29A4BFA300DB5614 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A7EE5E29A4BFA300DB5614 /* Preview Assets.xcassets */; };
+		18A7EE6629A4C96900DB5614 /* FocusValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A7EE6529A4C96900DB5614 /* FocusValueView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		18A7EE5929A4BFA100DB5614 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18A7EE5B29A4BFA300DB5614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A7EE5E29A4BFA300DB5614 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18A7EE6529A4C96900DB5614 /* FocusValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusValueView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				18A7EE5729A4BFA100DB5614 /* FocusBindingPWrapperPOCApp.swift */,
 				18A7EE5929A4BFA100DB5614 /* ContentView.swift */,
+				18A7EE6529A4C96900DB5614 /* FocusValueView.swift */,
 				18A7EE5B29A4BFA300DB5614 /* Assets.xcassets */,
 				18A7EE5D29A4BFA300DB5614 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A7EE6629A4C96900DB5614 /* FocusValueView.swift in Sources */,
 				18A7EE5A29A4BFA100DB5614 /* ContentView.swift in Sources */,
 				18A7EE5829A4BFA100DB5614 /* FocusBindingPWrapperPOCApp.swift in Sources */,
 			);
@@ -275,6 +279,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +309,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
